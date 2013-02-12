@@ -1,6 +1,9 @@
 0nePass for Android & iOS
 =============
 
+License
+-----------
+
 Privacy Policy
 -----------
 
