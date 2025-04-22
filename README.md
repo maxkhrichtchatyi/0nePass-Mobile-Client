@@ -1,44 +1,63 @@
-0nePass for Android & iOS
-=============
+# 0nePass - Secure Password Manager
 
-License
------------
+**Winner of "Best Application for Windows Phone 7" award at Microsoft Windows Phone 7 Hackathon, 2012**
 
-Privacy Policy
------------
+## Overview
 
-We care about your privacy and do not collect any passwords on 0nePass sync server and also on users' devices. In order to provide the best possible 0nePass experience we collect anonymous analytics so we can measure traffic.
+0nePass is a cross-platform password manager designed to securely store and synchronize your passwords across multiple devices. Built with security and user privacy at its core, 0nePass never stores your actual passwords on our servers - all sensitive data remains encrypted and in your control.
 
+## Key Features
 
-### Information we Collect
+- **Secure Password Generation**: Create strong, unique passwords for all your accounts
+- **Cross-Device Synchronization**: Seamlessly sync your password vault across Android, iOS, and Windows Phone devices
+- **Category Organization**: Easily manage passwords by separating them into categories (web, email, accounts, other)
+- **Password Strength Assessment**: Visual indicator helps you create stronger passwords
+- **Cloud Synchronization**: Optional cloud sync with robust security - we never store your actual passwords on our servers
+- **Offline Mode**: Full functionality even without internet connection
 
-We collect history of resources (web-sites, e-mail addresses and etc.), data anonymous analytics when 0nePass is synced.
-When you use 0nePass sync, we automatically record information from your device, its software, and your activity using the services. This may include the Device’s Internet Protocol (“IP”) address, type of device, locale preferences, identification numbers associated, your mobile carrier, date and time stamps associated with transactions, system configuration information.
+## Technical Implementation
 
+0nePass is built using the Titanium framework, allowing for native performance across multiple platforms. Key security features include:
 
-### How we use this information
+- SHA-1 hashing with multiple layers for password security
+- Local device storage with secure encryption
+- Anonymous synchronization protocol that never transmits actual passwords
+- Obfuscated code to prevent reverse engineering
 
-We collect anonymous analytics so we can measure traffic and provide the best possible experience.
-Our 0nePass sync server does not store passwords. Your passwords is in hands of your.
+## Privacy Policy
 
+At 0nePass, we prioritize your privacy:
 
-### Data Security
+- We **never** collect or store your actual passwords
+- All synchronization is anonymous and encrypted
+- We collect minimal analytics data solely to improve application performance
+- Your encrypted data remains in your control at all times
 
-The security of your information is important to us. When you enter sensitive information (such as a credit card number), use only 4 last digits from your credit card number.
+## Security Recommendations
 
-And again, we don't collect your password, we don't know you passwords.
+For maximum security when using 0nePass:
 
+1. Use a strong master password that you don't use elsewhere
+2. Enable device-level security (fingerprint, PIN, pattern)
+3. Regularly update the application to receive security improvements
+4. Avoid using public networks when synchronizing your passwords
 
-### Changes to this policy
+## Development
 
-This Privacy Policy may change from time to time. 
+0nePass was developed using:
+- Titanium Framework
+- JavaScript
+- Custom synchronization protocol
+- SHA-1 hashing algorithms
 
+## Awards
 
-### How to Contact Us
+- "Best Application for Windows Phone 7" - Microsoft Windows Phone 7 Hackathon, 2012
 
-If you have any questions about this Privacy Policy, please contact us at kh.maxim@yahoo.com.
+## License
 
+0nePass is released under the MIT license. See the [LICENSE](LICENSE.md) file for details.
 
-### Acceptable use policy
+## Contributing
 
-If you find a bug or flaw, please don't try and take down the site with it - contact us so we can get it fixed. We want 0nePass sync to be used for good, not evil.
+We welcome contributions to improve 0nePass! 
